@@ -51,7 +51,7 @@ Finding the perfect home in a new city like Singapore involves balancing many fa
 
 ## 🔄 Project Status
 
-This project is in active development as I search for housing in Singapore. See [STATUS.md](docs/STATUS.md) for current progress.
+This project is in active development as I search for housing in Singapore. See [STATUS.md](/STATUS.md) for current progress.
 
 ## 📂 Repository Structure
 
