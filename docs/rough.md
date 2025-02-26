@@ -138,6 +138,61 @@ I'm building a tool to help me find housing in Singapore. The tool:
 - Analyzes commute times and nearby amenities
 - Helps me compare options
 
+
+# High Level Technical Tasks
+1. Environment Setup
+
+Install necessary Python packages (pandas, folium, geopy, matplotlib, seaborn)
+Set up Jupyter notebook environment
+Create project structure (data folder, notebooks folder)
+
+2. Data Management
+
+Design Google Sheets schema with all required fields
+Set up Google Sheets API authentication
+Create Python functions to read/write from Google Sheets
+
+3. Map Visualization Setup
+
+Initialize Folium map centered on Singapore
+Add base layer controls (street view, satellite)
+Test basic markers and popups
+
+4. Property Data Handling
+
+Geocode addresses to latitude/longitude coordinates
+Create custom markers for different property types
+Design interactive property popups with key details
+
+5. Checkpoint Configuration
+
+Define and geocode main checkpoints (office, airport, etc.)
+Add checkpoint markers with custom icons
+Calculate distances between properties and checkpoints
+
+6. Amenity Analysis
+
+Implement OpenStreetMap API queries
+Create functions to find nearby amenities (groceries, gyms, transit)
+Add amenity data to property information
+
+7. Visualization and Analysis
+
+Create property comparison charts
+Develop distance/commute time visualizations
+Implement filtering capabilities based on your criteria
+
+8. User Interface Enhancements
+
+Add layer controls to toggle different property categories
+Create interactive selection for property comparison
+Implement property rating system
+
+9. Documentation and Usability
+
+Document code and functions
+Create user guide/readme
+Optimize for performance with larger datasets
 My current focus is on: [specific module/feature]
 
 Previous work: [brief summary or GitHub link]
